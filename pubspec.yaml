@@ -1,0 +1,41 @@
+name: hive_demo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # NoSQL Database
+  hive: ^2.0.4
+  # Extension for Hive
+  hive_flutter: ^1.0.0
+  # State Management
+  provider: ^5.0.0
+
+  # Internationalization (i18n)
+  flutter_localizations:
+    sdk: flutter
+    
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Linter Google
+  pedantic: ^1.11.0
+  # Hive TypeAdapters
+  hive_generator: ^1.1.0
+  # Dart Code Generation
+  build_runner: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/languages/
