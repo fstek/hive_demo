@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import 'provider/language_provider.dart';
-import 'provider/theme_provider.dart';
-import 'i18n/app_localizations.dart';
-import 'widgets/widgets.dart';
+import '../provider/language_provider.dart';
+import '../provider/theme_provider.dart';
+import '../i18n/app_localizations.dart';
+import '../widgets/widgets.dart';
 
 class View extends StatefulWidget {
   const View({Key? key}) : super(key: key);
